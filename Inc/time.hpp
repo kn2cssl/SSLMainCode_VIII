@@ -44,6 +44,7 @@ static class Time
 		static TIM_HandleTypeDef *mili,*micro;
 		static unsigned int s;
 	public:
+		static bool isValid;
 		void Init(TIM_HandleTypeDef *mil,TIM_HandleTypeDef *mic);
 		float Get_Time();
 		unsigned int Get_Second();

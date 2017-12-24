@@ -3,7 +3,7 @@
 <title>Static Call Graph - [SSLMainCode VIII\SSLMainCode VIII.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image SSLMainCode VIII\SSLMainCode VIII.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sun Dec 24 13:35:41 2017
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sun Dec 24 18:29:33 2017
 <BR><P>
 <H3>Maximum Stack Usage =        512 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -368,7 +368,8 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[1be]"></a>__aeabi_f2d</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, f2d.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[1bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Power::Init(ADC_HandleTypeDef*)
+<BR><BR>[Called By]<UL><LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Logger::Log(char*)
+<LI><a href="#[1bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Power::Init(ADC_HandleTypeDef*)
 <LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -428,9 +429,9 @@ Global Symbols
 <LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 <LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
-<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+<LI><a href="#[1fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 </UL>
 
 <P><STRONG><a name="[84]"></a>__aeabi_dsub</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, dadd.o(.text), UNUSED)
@@ -1313,12 +1314,12 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[109]"></a>HAL_TIM_ConfigClockSource</STRONG> (Thumb, 242 bytes, Stack size 16 bytes, stm32f4xx_hal_tim.o(i.HAL_TIM_ConfigClockSource))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_TIM_ConfigClockSource &rArr; TIM_TI2_ConfigInputStage
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_TIM_ConfigClockSource &rArr; TIM_ETR_SetConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TI2_ConfigInputStage
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TI1_ConfigInputStage
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITRx_SetConfig
+<BR>[Calls]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITRx_SetConfig
 <LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ETR_SetConfig
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TI2_ConfigInputStage
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TI1_ConfigInputStage
 </UL>
 <BR>[Called By]<UL><LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM8_Init
 <LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM5_Init
@@ -2534,7 +2535,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[182]"></a>MotorsNetwork::Init(UART_HandleTypeDef*, UART_HandleTypeDef*, UART_HandleTypeDef*, UART_HandleTypeDef*, UART_HandleTypeDef*)</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, motor.o(i._ZN13MotorsNetwork4InitEP18UART_HandleTypeDefS1_S1_S1_S1_))
-<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = MotorsNetwork::Init(UART_HandleTypeDef*, UART_HandleTypeDef*, UART_HandleTypeDef*, UART_HandleTypeDef*, UART_HandleTypeDef*) &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = MotorsNetwork::Init(UART_HandleTypeDef*, UART_HandleTypeDef*, UART_HandleTypeDef*, UART_HandleTypeDef*, UART_HandleTypeDef*) &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
 </UL>
 <BR>[Calls]<UL><LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Logger::Log(char*)
 </UL>
@@ -3045,8 +3046,8 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_PeriodElapsedCallback
 </UL>
 
-<P><STRONG><a name="[1b5]"></a>Time::Init(TIM_HandleTypeDef*, TIM_HandleTypeDef*)</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, time.o(i._ZN4Time4InitEP17TIM_HandleTypeDefS1_))
-<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = Time::Init(TIM_HandleTypeDef*, TIM_HandleTypeDef*) &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
+<P><STRONG><a name="[1b5]"></a>Time::Init(TIM_HandleTypeDef*, TIM_HandleTypeDef*)</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, time.o(i._ZN4Time4InitEP17TIM_HandleTypeDefS1_))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = Time::Init(TIM_HandleTypeDef*, TIM_HandleTypeDef*) &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
 </UL>
 <BR>[Calls]<UL><LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Logger::Log(char*)
 <LI><a href="#[1b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_Start_IT
@@ -3057,6 +3058,7 @@ Global Symbols
 
 <P><STRONG><a name="[19e]"></a>Time::Get_Time()</STRONG> (Thumb, 64 bytes, Stack size 0 bytes, time.o(i._ZN4Time8Get_TimeEv))
 <BR><BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Wireless::NRF_Data_Arrived()
+<LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Logger::Log(char*)
 <LI><a href="#[19c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU::Calculate()
 <LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[1c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Memory::Set_IMU_Offsets()
@@ -3087,7 +3089,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[1bd]"></a>Power::Init(ADC_HandleTypeDef*)</STRONG> (Thumb, 66 bytes, Stack size 264 bytes, power.o(i._ZN5Power4InitEP17ADC_HandleTypeDef))
-<BR><BR>[Stack]<UL><LI>Max Depth = 376<LI>Call Chain = Power::Init(ADC_HandleTypeDef*) &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
+<BR><BR>[Stack]<UL><LI>Max Depth = 392<LI>Call Chain = Power::Init(ADC_HandleTypeDef*) &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
 <LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Logger::Log(char*)
@@ -3127,10 +3129,12 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[199]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error::Happend(ErrorMode, char*)
 </UL>
 
-<P><STRONG><a name="[183]"></a>Logger::Log(char*)</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, logger.o(i._ZN6Logger3LogEPc))
-<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
+<P><STRONG><a name="[183]"></a>Logger::Log(char*)</STRONG> (Thumb, 118 bytes, Stack size 32 bytes, logger.o(i._ZN6Logger3LogEPc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB::Log(const char*, ...)
+<LI><a href="#[1be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
+<LI><a href="#[19e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Time::Get_Time()
 <LI><a href="#[1c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Debugger::Log(const char*, ...)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Debugger::Init()
@@ -3154,8 +3158,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[1cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Memory::Init()
 </UL>
 
-<P><STRONG><a name="[1c6]"></a>Memory::Set_IMU_Offsets()</STRONG> (Thumb, 122 bytes, Stack size 32 bytes, memory.o(i._ZN6Memory15Set_IMU_OffsetsEv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Memory::Set_IMU_Offsets()
+<P><STRONG><a name="[1c6]"></a>Memory::Set_IMU_Offsets()</STRONG> (Thumb, 108 bytes, Stack size 24 bytes, memory.o(i._ZN6Memory15Set_IMU_OffsetsEv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Memory::Set_IMU_Offsets()
 </UL>
 <BR>[Calls]<UL><LI><a href="#[19e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Time::Get_Time()
 <LI><a href="#[1c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU::Get_X_Velocity()
@@ -3188,7 +3192,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[1cc]"></a>Memory::Init()</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, memory.o(i._ZN6Memory4InitEv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = Memory::Init() &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = Memory::Init() &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
 </UL>
 <BR>[Calls]<UL><LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Logger::Log(char*)
 <LI><a href="#[1cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Memory::Clear_Wireless_Data()
@@ -3260,7 +3264,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[1d9]"></a>DebugPCB::Init(I2C_HandleTypeDef*)</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, debugpcb.o(i._ZN8DebugPCB4InitEP17I2C_HandleTypeDef))
-<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = DebugPCB::Init(I2C_HandleTypeDef*) &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = DebugPCB::Init(I2C_HandleTypeDef*) &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
 </UL>
 <BR>[Calls]<UL><LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Logger::Log(char*)
 <LI><a href="#[1d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugPCB::Get_Header()
@@ -3343,7 +3347,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[1e8]"></a>Debugger::Init()</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, debugger.o(i._ZN8Debugger4InitEv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = Debugger::Init() &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = Debugger::Init() &rArr; Logger::Log(char*) &rArr; USB::Log(const char*, ...) &rArr; CDC_Transmit_FS &rArr; USBD_CDC_TransmitPacket &rArr; USBD_LL_Transmit &rArr; HAL_PCD_EP_Transmit &rArr; USB_EPStartXfer &rArr; USB_WritePacket
 </UL>
 <BR>[Calls]<UL><LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Logger::Log(char*)
 </UL>
@@ -3990,11 +3994,11 @@ Local Symbols
 </UL>
 
 <P><STRONG><a name="[1f2]"></a>_printf_core</STRONG> (Thumb, 1744 bytes, Stack size 136 bytes, printfa.o(i._printf_core), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[1fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+<BR><BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+<LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+<LI><a href="#[1fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
 <LI><a href="#[1fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
 <LI><a href="#[1fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
-<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
-<LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0vsprintf
 <LI><a href="#[1f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf

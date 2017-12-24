@@ -465,7 +465,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x588EF12C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h)(0x588EF12C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x588EF12C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h)(0x588EF12C)
-F (..\Src\main.cpp)(0x5A3F7BEE)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --cpp-I"C:\Users\mmzpa\Documents\ARM\SSLMainCode VIII\MDK-ARM\RTE\_SSLMainCode_VIII"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o "sslmaincode viii\main.o" --omf_browse "sslmaincode viii\main.crf" --depend "sslmaincode viii\main.d")
+F (..\Src\main.cpp)(0x5A3FBD76)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --cpp-I"C:\Users\mmzpa\Documents\ARM\SSLMainCode VIII\MDK-ARM\RTE\_SSLMainCode_VIII"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o "sslmaincode viii\main.o" --omf_browse "sslmaincode viii\main.crf" --depend "sslmaincode viii\main.d")
 I (../Inc/main.h)(0x5A144BEE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x588EF12C)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5A0C36B6)
@@ -521,7 +521,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F64600)
 I (../Inc/settings.hpp)(0x5A1A7BE6)
 I (../Inc/wireless.hpp)(0x5A393DAC)
 I (../Inc/nrf24l01.hpp)(0x598078F5)
-I (../Inc/Time.hpp)(0x5A3E0A1A)
+I (../Inc/Time.hpp)(0x5A3FBEE2)
 I (../Inc/debugger.hpp)(0x5A1A847D)
 I (../Inc/memory.hpp)(0x5A3E217C)
 I (../Inc/Motor.hpp)(0x5A38F793)
@@ -895,9 +895,9 @@ I (../Inc/USB.hpp)(0x5A1A97DD)
 I (../Inc/Error.hpp)(0x5A145559)
 I (../Inc/Logger.hpp)(0x5A1A906A)
 I (../Inc/memory.hpp)(0x5A3E217C)
-I (../Inc/time.hpp)(0x5A3E0A1A)
-F (..\Src\time.cpp)(0x5A3E0A14)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --cpp-I"C:\Users\mmzpa\Documents\ARM\SSLMainCode VIII\MDK-ARM\RTE\_SSLMainCode_VIII"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o "sslmaincode viii\time.o" --omf_browse "sslmaincode viii\time.crf" --depend "sslmaincode viii\time.d")
-I (../Inc/time.hpp)(0x5A3E0A1A)
+I (../Inc/time.hpp)(0x5A3FBEE2)
+F (..\Src\time.cpp)(0x5A3FBED6)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --cpp-I"C:\Users\mmzpa\Documents\ARM\SSLMainCode VIII\MDK-ARM\RTE\_SSLMainCode_VIII"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o "sslmaincode viii\time.o" --omf_browse "sslmaincode viii\time.crf" --depend "sslmaincode viii\time.d")
+I (../Inc/time.hpp)(0x5A3FBEE2)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x588EF12C)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5A0C36B6)
 I (../Inc/main.h)(0x5A144BEE)
@@ -981,11 +981,50 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h)(0x588EF12C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x588EF12C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h)(0x588EF12C)
 I (../Inc/Logger.hpp)(0x5A1A906A)
-F (..\Src\Logger.cpp)(0x5A1A90D4)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --cpp-I"C:\Users\mmzpa\Documents\ARM\SSLMainCode VIII\MDK-ARM\RTE\_SSLMainCode_VIII"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o "sslmaincode viii\logger.o" --omf_browse "sslmaincode viii\logger.crf" --depend "sslmaincode viii\logger.d")
+F (..\Src\Logger.cpp)(0x5A3FBFFF)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --cpp-I"C:\Users\mmzpa\Documents\ARM\SSLMainCode VIII\MDK-ARM\RTE\_SSLMainCode_VIII"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o "sslmaincode viii\logger.o" --omf_browse "sslmaincode viii\logger.crf" --depend "sslmaincode viii\logger.d")
 I (../Inc/Logger.hpp)(0x5A1A906A)
 I (../Inc/USB.hpp)(0x5A1A97DD)
 I (../Inc/debugger.hpp)(0x5A1A847D)
-F (..\Src\memory.cpp)(0x5A3F78C8)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --cpp-I"C:\Users\mmzpa\Documents\ARM\SSLMainCode VIII\MDK-ARM\RTE\_SSLMainCode_VIII"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o "sslmaincode viii\memory.o" --omf_browse "sslmaincode viii\memory.crf" --depend "sslmaincode viii\memory.d")
+I (../Inc/time.hpp)(0x5A3FBEE2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x588EF12C)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5A0C36B6)
+I (../Inc/main.h)(0x5A144BEE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x588EF12C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x588EF0F7)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x588EF0F7)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x588EF12B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x588EF12B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x588EF12B)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x588EF12B)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x588EF12B)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x588EF0F7)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x588EF12C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F64600)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x588EF12C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h)(0x588EF12C)
+F (..\Src\memory.cpp)(0x5A3FC0CF)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --cpp-I"C:\Users\mmzpa\Documents\ARM\SSLMainCode VIII\MDK-ARM\RTE\_SSLMainCode_VIII"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o "sslmaincode viii\memory.o" --omf_browse "sslmaincode viii\memory.crf" --depend "sslmaincode viii\memory.d")
 I (../Inc/memory.hpp)(0x5A3E217C)
 I (../Inc/Logger.hpp)(0x5A1A906A)
 I (../Inc/Settings.hpp)(0x5A1A7BE6)
@@ -1030,7 +1069,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x588EF12C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h)(0x588EF12C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x588EF12C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h)(0x588EF12C)
-I (../Inc/Time.hpp)(0x5A3E0A1A)
+I (../Inc/Time.hpp)(0x5A3FBEE2)
 F (..\Src\Motor.cpp)(0x5A38F887)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --cpp-I"C:\Users\mmzpa\Documents\ARM\SSLMainCode VIII\MDK-ARM\RTE\_SSLMainCode_VIII"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o "sslmaincode viii\motor.o" --omf_browse "sslmaincode viii\motor.crf" --depend "sslmaincode viii\motor.d")
 I (../Inc/Motor.hpp)(0x5A38F793)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x588EF12C)
@@ -1166,7 +1205,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h)(0x588EF12C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F64600)
 I (../Inc/Logger.hpp)(0x5A1A906A)
 I (../Inc/Error.hpp)(0x5A145559)
-I (../Inc/Time.hpp)(0x5A3E0A1A)
+I (../Inc/Time.hpp)(0x5A3FBEE2)
 F (..\Src\Controller.cpp)(0x5A38F6F6)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --cpp-I"C:\Users\mmzpa\Documents\ARM\SSLMainCode VIII\MDK-ARM\RTE\_SSLMainCode_VIII"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o "sslmaincode viii\controller.o" --omf_browse "sslmaincode viii\controller.crf" --depend "sslmaincode viii\controller.d")
 I (../Inc/Controller.hpp)(0x5A38F6C5)
 I (../Inc/Memory.hpp)(0x5A3E217C)

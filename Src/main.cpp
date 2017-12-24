@@ -160,7 +160,7 @@ int main(void)
 	
   /* USER CODE BEGIN 2 */
 	debugger.Init();
-	time.Init(&htim13,&htim14);//logger using Time
+	time.Init(&htim13,&htim14);
 	power.Init(&hadc1);
 	memory.Init();
 	motorsNetwork.Init(&huart6,&huart3,&huart2,&huart1,&huart4);

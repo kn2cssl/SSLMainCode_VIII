@@ -4,6 +4,8 @@
 TIM_HandleTypeDef *Time::mili;
 TIM_HandleTypeDef *Time::micro;
 unsigned int Time::s;
+bool Time::isValid = false;
+
 void Time::Init(TIM_HandleTypeDef *mil,TIM_HandleTypeDef *mic)
 {
 	mili = mil;
@@ -11,6 +13,7 @@ void Time::Init(TIM_HandleTypeDef *mil,TIM_HandleTypeDef *mic)
 	HAL_TIM_Base_Start_IT(mili);
 	HAL_TIM_Base_Start(mic);
 	s = 0;
+	isValid = true;
 	logger.Log((char*)"Timers Initialized");
 }
 float Time::Get_Time()

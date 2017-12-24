@@ -74,7 +74,8 @@ void Memory::Update_Vision_Data()
 }
 void Memory::Set_IMU_Offsets()
 {
-	if (time.Get_Time() > (float)(1))
+	//if (time.Get_Time() > (float)(1))
+	if (true)
 	{
 		float dvx = float(imu.Get_X_Velocity()) - float(visionData.VX);
 		float dvy = float(imu.Get_Y_Velocity()) - float(visionData.VY);
