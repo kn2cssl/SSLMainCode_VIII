@@ -15,7 +15,6 @@ static class IMU
 {
 	private:
 		static I2C_HandleTypeDef* hi2c;
-		static float xOffset;
 		static float yOffset;
 		static float xVelocity;
 		static float yVelocity;
@@ -39,6 +38,8 @@ static class IMU
 		float Get_X_Offset();
 		float Get_Y_Offset();
 	public:
+		static float xOffset;
+		void Clear();
 		void Init(I2C_HandleTypeDef* _hi2c);
 		void Set_X_Offset(float offset);
 		void Set_Y_Offset(float offset);

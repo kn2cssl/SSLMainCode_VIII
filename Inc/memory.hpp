@@ -54,6 +54,7 @@ static class Memory
 		static WirelessResponseData responseStruct;
 		static VisionData visionData;
 		static MotorSetPoints motorsSetPoints;
+		static float cst;
 	
 		void Init();
 		void Clear_Wireless_Data();
